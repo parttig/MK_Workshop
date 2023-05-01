@@ -1,6 +1,6 @@
 *** Variables ***
-${FIRST_NAME}    René
-${LAST_NAME}    Rohner
+${FIRST_NAME}    Seppo
+${LAST_NAME}    Sorsa
 
 
 *** Test Cases ***
