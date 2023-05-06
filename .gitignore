@@ -129,3 +129,9 @@ dmypy.json
 .pyre/
 results/
 Participants/
+
+#other
+log.html
+output.xml
+playwright-log.txt
+report.html
