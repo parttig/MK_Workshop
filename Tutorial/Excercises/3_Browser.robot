@@ -10,17 +10,19 @@ Locating Elements
     New Browser    headless=False
     New Context
     New Page    http://gofore.com
+    #Locating with words
     Click    "Cases"
     Sleep    3
+    #Locating with xpath
     Click    xpath=//ul[@class="language-selector hide-on-mobile-nav-view"]/descendant::a[@lang="fi"]
     #Click    "fi"
     Sleep    3
     #Get Title
     #Get Url
 
-Your First Test
-    [Documentation]    This is your sandbox. Try locating and clicking elements at gofore.com
-    New Browser    headless=False
-    New Context
-    New Page    http://gofore.com
+#Your First Test
+#    [Documentation]    This is your sandbox. Try locating and clicking elements at gofore.com
+#    New Browser    headless=False
+#    New Context
+#    New Page    http://gofore.com
     #Your content
