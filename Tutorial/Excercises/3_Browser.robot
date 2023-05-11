@@ -22,6 +22,7 @@ Locating Elements
 
 #Your First Test
 #    [Documentation]    This is your sandbox. Try locating and clicking elements at gofore.com
+#    [Tags]    test
 #    New Browser    headless=False
 #    New Context
 #    New Page    http://gofore.com
