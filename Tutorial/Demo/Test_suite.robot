@@ -12,3 +12,5 @@ Jobs and filter
     [Documentation]    Clicks to jobs and filter them
     Vaihda Kieli    suomi
     Siirry työpaikkoihin
+    Filtteröi työpaikkoja    Helsinki    Testing & QA
+    Sleep    5
