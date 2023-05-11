@@ -1,5 +1,6 @@
 *** Test Cases ***
 My Simple Test
+    [Tags]    testi
     Log     Hello World
     Log To Console     Hello World Console
     Should Be Equal    Hello    Hello
