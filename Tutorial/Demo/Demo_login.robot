@@ -18,16 +18,24 @@ Test1
     New Browser    headless=False
     New Context
     New Page    ${website}
+    Sleep    2
     Fill Text    id=username    ${username}
+    Sleep    2
     Fill Text    id=password    ${password}
+    Sleep    2
     Click    id=submit
+    Sleep    2
     Get Text    h1    ==    Logged In Successfully
 
 Test2
     New Browser    headless=False
     New Context
     New Page    ${website}
+    Sleep    2
     Fill Text    id=username    ${wrong_username}
+    Sleep    2
     Fill Text    id=password    ${password}
+    Sleep    2
     Click    id=submit
+    Sleep    2
     Get Element    id=error

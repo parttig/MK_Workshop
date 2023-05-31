@@ -2,6 +2,7 @@
 Documentation    This is a demo suite
 Resource    Test_keywords.resource
 Suite Setup    Navigoi sivulle ${gofore}
+Test Teardown    Sleep    3
 
 *** Variables ***
 ${gofore}=    http://gofore.com
@@ -14,3 +15,5 @@ Jobs and filter
     Siirry työpaikkoihin
     Filtteröi työpaikkoja    Helsinki    Testing & QA
     Sleep    5
+
+

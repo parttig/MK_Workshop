@@ -14,14 +14,16 @@ Locating Elements
     Click    "Cases"
     Sleep    3
     #Locating with xpath
-    Click    xpath=//ul[@class="language-selector hide-on-mobile-nav-view"]/descendant::a[@lang="fi"]
-    #Click    "fi"
+    #Click    xpath=//ul[@class="language-selector hide-on-mobile-nav-view"]/descendant::a[@lang="fi"]
+    Click    "fi"
     Sleep    3
     #Get Title
     #Get Url
 
 #Your First Test
-#    [Documentation]    This is your sandbox. Try locating and clicking elements at gofore.com
+#    [Documentation]    Try locating and clicking elements at gofore.com.
+#    ...    ​Hint: check documentation for keywords Click, Get..., Fill Text
+#    ...    https://marketsquare.github.io/robotframework-browser/Browser.html
 #    [Tags]    test
 #    New Browser    headless=False
 #    New Context
