@@ -14,8 +14,9 @@ Locating Elements
     Click    "Cases"
     Sleep    3
     #Locating with xpath
-    #Click    xpath=//ul[@class="language-selector hide-on-mobile-nav-view"]/descendant::a[@lang="fi"]
-    Click    "fi"
+    Click    xpath=//ul[@class="language-selector hide-on-mobile-nav-view"]/descendant::a[@lang="fi"]
+    #The next locator doesn't work because the locator isn't unique
+    #Click    "fi"
     Sleep    3
     #Get Title
     #Get Url
